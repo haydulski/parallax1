@@ -21,6 +21,9 @@ min-height: 100vh;
     height: 100%;
     width: 100%;
 }
+.mobile{
+    width: auto;
+}
 .g1abc{
     position: absolute;
     top: 100px;
@@ -60,4 +63,9 @@ min-height: 100vh;
     position: absolute;
     bottom: -50px;
     right: 5%;
+}
+@media (max-width: 700px){
+    .mobile{
+        width: 20vw;
+    }
 }
